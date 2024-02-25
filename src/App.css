@@ -129,3 +129,55 @@ nav ul li {
 .front-image img {
   width: 503px;
 }
+
+/* Responsive CSS */
+@media screen and (max-width: 1366px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .front h1 {
+    font-size: 64px;
+    line-height: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .front {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .front h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .front p {
+    font-size: 14px;
+    max-width: none;
+  }
+
+  .front-image img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .front h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .front-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
