@@ -9,7 +9,7 @@ To get started with this project, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-    git clone https://github.com/ashishmisal23/Brand-Homepage
+    git clone https://github.com/ashishmisal23/Brand-Homepage.git
 
 2.  Navigate to the project directory:
     ```bash
